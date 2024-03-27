@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(16, 15, 15);
+  color: rgb(240, 238, 238);
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+:root {
+  --color-yellow: rgb(182, 187, 16);
+}
+
+.title {
+  margin: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid red;
+  text-align: center;
+}
+
+.info {
+  background-color: rgb(182, 187, 16);
+  padding: 0.7rem;
+  border-radius: 0.4rem;
+  margin: 1rem;
+}
+
+.info p {
+  font-size: 1.3rem;
+  max-width: 40rem;
+  min-width: none;
+  color: black;
+}
+
+/* boton para cambiar el modo a claro  */
+
+.dark-mode {
+  background: white;
+  color: black;
+}
+
+.btn {
+  margin-top: 3rem;
+  width: 7rem;
+  height: 3rem;
+  background: var(--color-yellow);
+  border-radius: 0.5rem;
+  color: black;
+}
